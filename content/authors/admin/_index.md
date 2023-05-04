@@ -34,7 +34,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Ph.D. in Mathematics, Computer Architectur and Telecommunication Networks
+    - course: Ph.D. in Mathematics, Computer Architecture and Telecommunication Networks
       institution: ISAE-SUPAERO
       year: '2019'
     - course: Engineering degree in Computer Engineering and Telecommunication Networks
