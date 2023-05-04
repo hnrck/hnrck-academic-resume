@@ -1,0 +1,16 @@
+{
+  "name": "hnrck-academic-resume",
+  "version": "1.0.0",
+  "description": "[![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.10",
+    "tinacms": "^1.5.3"
+  }
+}
