@@ -1,0 +1,3 @@
+[submodule "content/event/defense"]
+	path = static/uploads/defense
+	url = git@github.com:hnrck/defense.git
