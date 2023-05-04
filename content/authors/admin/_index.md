@@ -58,6 +58,3 @@ Although each problem requires a customized solution, my preferred approach cons
 Such an approach makes it possible to apply good industrial software practices while addressing emerging problems from networks and system states.
 
 I have experienced this modular approach in software and systems, and I had the opportunity to develop it on the simulation of critical cyber-physical systems that can integrate humans, software and hardware.
-
-I am looking for serious technological challenges.
-I would like to contribute to the conception and implementation of complex systems in a team, and to participate in the demonstration of these systems.
