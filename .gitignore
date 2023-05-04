@@ -10,3 +10,6 @@ go.sum
 .hugo_build.lock
 
 node_modules
+
+# Jupyter
+.ipynb_checkpoints/
