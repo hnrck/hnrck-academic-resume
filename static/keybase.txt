@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/hnrck
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hnrck.io
+  * I am hnrck (https://keybase.io/hnrck) on keybase.
+  * I have a public key ASApSVTL9Z2LOx8U7vvFuDJXzdgu3jjR-IcDIuyHpF0rRQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200c28502f2a599aebcee06a96ef29b12654e1fe1ed959e3c5c556660d5264f6940a",
+      "host": "keybase.io",
+      "kid": "0120294954cbf59d8b3b1f14eefbc5b83257cdd82ede38d1f8870322ec87a45d2b450a",
+      "uid": "f0840fd5179fa02dd913e92b19aad819",
+      "username": "hnrck"
+    },
+    "merkle_root": {
+      "ctime": 1557227913,
+      "hash": "9118f5a5cbfee8c6cebecf4b19e7ac403e7b2de010e507a7b2fd87fffc95a4f7128ab10095461bbe01544f3cbf4f787d3c1661ecdf09e8bf2d280c39a71ecd79",
+      "hash_meta": "d7cd072de2bbe8dd5a0d561fce4d59ce7bad0a13141ab63a7464776c78c5c8c8",
+      "seqno": 5320827
+    },
+    "service": {
+      "entropy": "0I+PSvvcft0u1fgOblpV8spy",
+      "hostname": "hnrck.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1557227920,
+  "expire_in": 504576000,
+  "prev": "bf0294a0827c1467d17d969dd4ab501bd615d49c6a85ee5df4ee388b92df81ac",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKUlUy/WdizsfFO77xbgyV83YLt440fiHAyLsh6RdK0UKp3BheWxvYWTESpcCFMQgvwKUoIJ8FGfRfZad1KtQG9YV1Jxqhe5d9O44i5LfgazEIAFKlyleP4cY7PHv2dRYs37TZ73fLU08u5sdsj6/y2q9AgHCo3NpZ8RA4GOKdzJPZGhBj6dqK6Js09BgPn1SHpj6pGoaaKbiJlBdz6lo+CpX/tKbRpvZo429tOQGyqeXul+7Lu1gXOdODqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHjHL/iK6lJFIa7iEQshwyDeXHt5r7WoeepgjuDv5ITeo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hnrck
+
+==================================================================
