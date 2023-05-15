@@ -54,66 +54,58 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: "Software Engineer"
+          company: "SoundHound, Inc"
+          company_url: "https://www.soundhound.com"
+          date_end: ""
+          date_start: "2021-07-21"
+          date_start: "2023-07-28"
+          description: ""
+          location: "Paris, France"
+        - title: "Software Engineer and Integration and Validation Engineer"
+          company: "Thales Group"
+          company_url: "https://www.thalesgroup.com/fr"
+          date_start: "2019-09-02"
+          date_end: "2021-07-14"
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+              * Contribution to the **analysis** and **validation** of the implementation of a big data distributed system
+              * **Identification** of problems within a defined perimeter and **reporting**
+              * Responsibility for the **design** and **development** of **inspection tools**
+              * **Supervision** of junior associates for the implementation of inspection tools
+          location: "Toulouse, France"
+        - title: "ATER (Temporary Teaching and Research Assistant), Ph.D. candidate"
+          company: "ISAE-SUPAERO"
+          company_url: "https://www.isae-supaero.fr/fr/"
+          date_end: "2019-07-31"
+          date_start: "2016-02-29T23:00:00+00:00"
+          description: "Teaching assistant in C, Java, Real-time systems, SysML, and numerical analysis."
+          location: "Toulouse, France"
+        - title: "Software Engineer for simulation architecture, Ph.D. Candidate"
+          company: "Airbus Group"
+          company_url: "https://www.airbus.com/"
+          date_end: "2019-02-28"
+          date_start: "2016-02-29T23:00:00+00:00"
+          description: |2-
+              * **Formalization** of the execution of a **distributed simulation** for the *a priori* validation of a **simulation scheduling** respecting aerospatial-specific constraints  
+              * **Analyzis** of existing simulations and technical documentations for formalizing of aerospatial-specific distributed simulation constraints  
+              * **Implementation** of RROSACE -- a simple flight controller **case study** from ROSACE, in Matlab and C  
+              * **Implementation** of seaplanes -- a **simulation framework** in C++ based on HLA, a publish-subscribe-based data exchange standard, with Qt interface
+              * **Implementation** of a modulable and extensible **allocation tool** in Python, with multiple heuristics
+              * **Presentation** of results and demonstrators in **international conferences**
+          location: "Toulouse, France"
+        - title: "Software Engineer for satellite ground segment communications"
+          company: "Viveris technology"
+          company_url: "https://www.viveris.fr/"
+          date_end: "2016-01-31"
+          date_start: "2014-11-30T23:00:00+00:00"
+          description: |2-
+              * **Implementation** of a DVB-RCS2 communication protocol in  satellite communications ground segment for Thalès Alenia Space / CNES
+              * **Development** and **integration** of network modules in multi-threaded telecommunication **kernel device**.
+              * **Development** of **Quality of Service library** for the satellite simulation environment, based on the libns
+              * **Development** of **test tools** for **continuous integration** in Python, Ruby and Perl
+              * **Analysis** of network packet scheduling for QoS validation"
+              Open-source library available at [hnrck/librle](https://github.com/hnrck/librle)
+          location: "Toulouse, France"
     design:
       columns: '2'
   - block: collection
@@ -170,14 +162,6 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
   - block: collection
     id: featured
     content:
@@ -223,46 +207,11 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
-      # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      text: ""
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
+        country: France
+        country_code: FR
       autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: '2'
 ---
