@@ -152,10 +152,22 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: c
+          tag: c
+        - name: c++
+          tag: c++
+        - name: Allocation
+          tag: Allocation
+        - name: Cyber-Physical System
+          tag: Cyber-Physical System
+        - name: Heuristics
+          tag: Heuristics
+        - name: Real-Time
+          tag: Real-Time
+        - name: Scheduling
+          tag: Scheduling
+        - name: Simulation
+          tag: Simulation
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
